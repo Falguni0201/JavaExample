@@ -1,0 +1,18 @@
+
+public class Return {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		boolean t = true;
+		System.out.println("Before the retrun");
+		
+		if (t)
+			return;
+		// Compiler will bypass every statement
+        // after return
+        System.out.println("This won't execute.");
+	}
+
+}
